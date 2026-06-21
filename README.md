@@ -1,70 +1,236 @@
-# Getting Started with Create React App
+# Siddha-Tech: Living Earth
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Vision
 
-## Available Scripts
+Rebuilding Earth from the soul outward.
 
-In the project directory, you can run:
+A digital platform dedicated to consciousness, regenerative living, sacred technology, spiritual innovation, sustainable agriculture, and collective awakening.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Design Language
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Theme
+- Dark cosmic background
+- Gold accent color (#C9A227)
+- Elegant serif typography
+- Minimalist luxury aesthetic
+- Spiritual + futuristic atmosphere
 
-### `npm test`
+### Color Palette
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Primary:
+- Gold: #C9A227
+- Deep Black: #050505
 
-### `npm run build`
+Secondary:
+- Cosmic Purple: #2D0F45
+- Midnight Blue: #0A0F1F
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Text:
+- White: #FFFFFF
+- Soft Gray: #B8B8B8
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Hero Section
 
-### `npm run eject`
+### Headline
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Rebuilding Earth from the soul outward.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Subheadline
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+A civilization where temples are reactors, language is technology, and agriculture is a sacred conversation with Bhumi Devi.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### CTA Buttons
 
-## Learn More
+[ Register Your Idea ]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[ Study The Blueprint ]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Navigation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Logo: Siddha-Tech Living Earth
 
-### Analyzing the Bundle Size
+Menu:
+- Home
+- Blueprint
+- Projects
+- Community
+- Knowledge
+- Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Right Side CTA:
+- Become Custodian
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Sections
 
-### Advanced Configuration
+### 1. Vision
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Explain the purpose of creating a conscious civilization.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 2. Blueprint
 
-### `npm run build` fails to minify
+Present:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Sacred Agriculture
+- Conscious Technology
+- Regenerative Communities
+- Education Systems
+- Energy Systems
+- Spiritual Research
+
+Button:
+"Study the Blueprint"
+
+---
+
+### 3. Register Your Idea
+
+Allow visitors to submit:
+
+- Name
+- Email
+- Project Title
+- Category
+- Description
+- Upload Documents
+
+Button:
+"Submit Idea"
+
+---
+
+### 4. Living Earth Knowledge Library
+
+Cards:
+
+- Ancient Wisdom
+- Vedic Science
+- Ecology
+- Consciousness
+- Agriculture
+- Spiritual Technology
+
+---
+
+### 5. Community
+
+Features:
+
+- Discussion Forum
+- Events
+- Local Chapters
+- Volunteer Programs
+
+---
+
+### 6. Custodian Program
+
+Membership tiers:
+
+- Seeker
+- Builder
+- Guardian
+- Custodian
+
+Benefits:
+- Access to private knowledge
+- Project participation
+- Voting rights
+- Community recognition
+
+---
+
+### 7. Testimonials
+
+Display stories from:
+
+- Farmers
+- Researchers
+- Spiritual Practitioners
+- Community Builders
+
+---
+
+### 8. Footer
+
+Quote:
+
+"We do not inherit Earth from our ancestors. We borrow it from future generations."
+
+Links:
+- Privacy Policy
+- Terms
+- Contact
+- Social Media
+
+---
+
+## Animation Style
+
+- Slow fade-in
+- Parallax stars
+- Floating particles
+- Gold glow hover effects
+- Smooth scroll transitions
+
+---
+
+## Fonts
+
+Headings:
+- Playfair Display
+- Cormorant Garamond
+
+Body:
+- Inter
+- Source Sans Pro
+
+---
+
+## Mobile Experience
+
+- Fully responsive
+- Large typography
+- Full-width buttons
+- Sticky navigation
+- Optimized dark mode
+
+---
+
+## Technical Stack
+
+Frontend:
+- Next.js
+- Tailwind CSS
+- Framer Motion
+
+Backend:
+- Supabase
+
+CMS:
+- Notion API or Sanity
+
+Hosting:
+- Vercel
+
+---
+
+## Core Message
+
+The website should feel like:
+
+Ancient Wisdom × Future Technology × Spiritual Civilization
+
+Not a corporate website.
+Not a social media platform.
+
+A digital gateway into a new way of living.
