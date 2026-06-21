@@ -1,89 +1,33 @@
-[README.md](https://github.com/user-attachments/files/29178456/README.md)
-# 🌱 Siddha-Tech / Living Earth
+import * as React from "react"
+import * as AvatarPrimitive from "@radix-ui/react-avatar"
 
-A platform to register new development ideas and startup companies focused on **agriculture, regenerative earth-development, sacred architecture, and consciousness technology** — guided by the vision of Akash Shivapure.
+import { cn } from "@/lib/utils"
 
-Built with React + FastAPI + MongoDB.
+const Avatar = React.forwardRef(({ className, ...props }, ref) => (
+  <AvatarPrimitive.Root
+    ref={ref}
+    className={cn("relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full", className)}
+    {...props} />
+))
+Avatar.displayName = AvatarPrimitive.Root.displayName
 
----
+const AvatarImage = React.forwardRef(({ className, ...props }, ref) => (
+  <AvatarPrimitive.Image
+    ref={ref}
+    className={cn("aspect-square h-full w-full", className)}
+    {...props} />
+))
+AvatarImage.displayName = AvatarPrimitive.Image.displayName
 
-## ✨ Features
+const AvatarFallback = React.forwardRef(({ className, ...props }, ref) => (
+  <AvatarPrimitive.Fallback
+    ref={ref}
+    className={cn(
+      "flex h-full w-full items-center justify-center rounded-full bg-muted",
+      className
+    )}
+    {...props} />
+))
+AvatarFallback.displayName = AvatarPrimitive.Fallback.displayName
 
-- 🏛️ **Vision landing page** with manifesto, cinematic video, and approved-founders directory
-- 📝 **Register-your-idea portal** — startups submit founder details, idea, problem solved, stage, funding needs + optional pitch deck (PDF / PPT / DOCX)
-- 📖 **Akashic Blueprint study section** — 17 chapters across 6 parts, Notion-style split reading layout
-- 🛡️ **Admin (Inner Sanctum) dashboard** — approve / reject submissions, download pitch decks, inline-edit site copy
-- 🔐 **JWT auth** — single seeded admin (no public signup)
-
----
-
-## 🚀 Deploying for free — GitHub + MongoDB Atlas + Render + Vercel
-
-Follow [`DEPLOY_FREE.md`](./DEPLOY_FREE.md) — total time ~30–45 minutes, total cost ₹0.
-
-## 💻 Running locally
-
-### Backend
-```bash
-cd backend
-pip install -r requirements.txt
-cp .env.example .env   # then edit values
-uvicorn server:app --host 0.0.0.0 --port 8001 --reload
-```
-
-### Frontend
-```bash
-cd frontend
-yarn install
-cp .env.example .env   # then edit REACT_APP_BACKEND_URL
-yarn start
-```
-
-Open http://localhost:3000
-
----
-
-## 🔑 Default admin credentials
-- Email: `akash@siddha-tech.earth`
-- Password: `SiddhaTech@2026`
-
-**Change these in `backend/.env` before going to production.**
-
----
-
-## 📜 Architecture
-
-```
-┌────────────┐   HTTPS   ┌────────────┐   Motor   ┌────────────┐
-│  React +   │  ──────▶  │  FastAPI   │  ──────▶  │  MongoDB   │
-│  Tailwind  │           │  /api/...  │           │   Atlas    │
-│  (Vercel)  │           │  (Render)  │           │  (free)    │
-└────────────┘           └────────────┘           └────────────┘
-```
-
----
-
-## 📂 Project structure
-
-```
-/
-├── backend/
-│   ├── server.py             FastAPI app + all endpoints
-│   ├── chapters_seed.py      17-chapter Akashic Blueprint content
-│   ├── requirements.txt
-│   └── .env.example
-├── frontend/
-│   ├── src/
-│   │   ├── App.js            React Router setup
-│   │   ├── pages/            HomePage, RegisterPage, StudyPage, FoundersPage, AdminLogin, AdminDashboard
-│   │   ├── components/       Navbar, Footer
-│   │   └── lib/              apiClient.js, AuthContext.jsx
-│   ├── public/assets/        living-earth.mp4, satya.docx, akashic-blueprint.pptx
-│   └── .env.example
-├── README.md
-└── DEPLOY_FREE.md            Step-by-step free-hosting guide
-```
-
----
-
-## 🛐 Om Tat Sat
+export { Avatar, AvatarImage, AvatarFallback }
