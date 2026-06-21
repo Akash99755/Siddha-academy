@@ -1,88 +1,70 @@
-# 🌱 Siddha-Tech / Living Earth
+# Getting Started with Create React App
 
-A platform to register new development ideas and startup companies focused on **agriculture, regenerative earth-development, sacred architecture, and consciousness technology** — guided by the vision of Akash Shivapure.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Built with React + FastAPI + MongoDB.
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## ✨ Features
+### `npm start`
 
-- 🏛️ **Vision landing page** with manifesto, cinematic video, and approved-founders directory
-- 📝 **Register-your-idea portal** — startups submit founder details, idea, problem solved, stage, funding needs + optional pitch deck (PDF / PPT / DOCX)
-- 📖 **Akashic Blueprint study section** — 17 chapters across 6 parts, Notion-style split reading layout
-- 🛡️ **Admin (Inner Sanctum) dashboard** — approve / reject submissions, download pitch decks, inline-edit site copy
-- 🔐 **JWT auth** — single seeded admin (no public signup)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🚀 Deploying for free — GitHub + MongoDB Atlas + Render + Vercel
+### `npm test`
 
-Follow [`DEPLOY_FREE.md`](./DEPLOY_FREE.md) — total time ~30–45 minutes, total cost ₹0.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 💻 Running locally
+### `npm run build`
 
-### Backend
-```bash
-cd backend
-pip install -r requirements.txt
-cp .env.example .env   # then edit values
-uvicorn server:app --host 0.0.0.0 --port 8001 --reload
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Frontend
-```bash
-cd frontend
-yarn install
-cp .env.example .env   # then edit REACT_APP_BACKEND_URL
-yarn start
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Open http://localhost:3000
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-## 🔑 Default admin credentials
-- Email: `akash@siddha-tech.earth`
-- Password: `SiddhaTech@2026`
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**Change these in `backend/.env` before going to production.**
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## 📜 Architecture
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```
-┌────────────┐   HTTPS   ┌────────────┐   Motor   ┌────────────┐
-│  React +   │  ──────▶  │  FastAPI   │  ──────▶  │  MongoDB   │
-│  Tailwind  │           │  /api/...  │           │   Atlas    │
-│  (Vercel)  │           │  (Render)  │           │  (free)    │
-└────────────┘           └────────────┘           └────────────┘
-```
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## 📂 Project structure
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-```
-/
-├── backend/
-│   ├── server.py             FastAPI app + all endpoints
-│   ├── chapters_seed.py      17-chapter Akashic Blueprint content
-│   ├── requirements.txt
-│   └── .env.example
-├── frontend/
-│   ├── src/
-│   │   ├── App.js            React Router setup
-│   │   ├── pages/            HomePage, RegisterPage, StudyPage, FoundersPage, AdminLogin, AdminDashboard
-│   │   ├── components/       Navbar, Footer
-│   │   └── lib/              apiClient.js, AuthContext.jsx
-│   ├── public/assets/        living-earth.mp4, satya.docx, akashic-blueprint.pptx
-│   └── .env.example
-├── README.md
-└── DEPLOY_FREE.md            Step-by-step free-hosting guide
-```
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## 🛐 Om Tat Sat
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
